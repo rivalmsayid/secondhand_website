@@ -24,7 +24,7 @@ try:
 
     # If the element is found, print a success message
     print("Element is present on the page.")
-    # Log in using a registered account
+    # Log in using a registered account 
     name = driver.find_element(By.NAME,'user[email]').send_keys('ahmed123@gmail.com')
     password = driver.find_element(By.NAME,'user[password]').send_keys('ahmed123')
     login = driver.find_element(By.NAME,'commit').click()
